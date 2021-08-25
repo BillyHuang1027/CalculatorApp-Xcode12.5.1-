@@ -11,7 +11,6 @@
 		2F1325CA26BA3292009C5356 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1325C926BA3292009C5356 /* CalculatorViewController.swift */; };
 		2F758FCF26BA29E000F4F7E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F758FCE26BA29E000F4F7E8 /* AppDelegate.swift */; };
 		2F758FD126BA29E000F4F7E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F758FD026BA29E000F4F7E8 /* SceneDelegate.swift */; };
-		2F758FD326BA29E000F4F7E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F758FD226BA29E000F4F7E8 /* ViewController.swift */; };
 		2F758FD626BA29E000F4F7E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F758FD426BA29E000F4F7E8 /* Main.storyboard */; };
 		2F758FD826BA29E400F4F7E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F758FD726BA29E400F4F7E8 /* Assets.xcassets */; };
 		2F758FDB26BA29E400F4F7E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F758FD926BA29E400F4F7E8 /* LaunchScreen.storyboard */; };
@@ -23,7 +22,6 @@
 		2F758FCB26BA29E000F4F7E8 /* CalculatorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F758FCE26BA29E000F4F7E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F758FD026BA29E000F4F7E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2F758FD226BA29E000F4F7E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2F758FD526BA29E000F4F7E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F758FD726BA29E400F4F7E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F758FDA26BA29E400F4F7E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -41,14 +39,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2F1325C426BA31E7009C5356 /* Entensions */ = {
-			isa = PBXGroup;
-			children = (
-				2F1325C726BA3223009C5356 /* Double+Entensions.swift */,
-			);
-			path = Entensions;
-			sourceTree = "<group>";
-		};
 		2F758FC226BA29E000F4F7E8 = {
 			isa = PBXGroup;
 			children = (
@@ -68,26 +58,16 @@
 		2F758FCD26BA29E000F4F7E8 /* CalculatorApp */ = {
 			isa = PBXGroup;
 			children = (
-				2F758FE226BA312300F4F7E8 /* Controllers */,
-				2F1325C426BA31E7009C5356 /* Entensions */,
 				2F758FCE26BA29E000F4F7E8 /* AppDelegate.swift */,
 				2F758FD026BA29E000F4F7E8 /* SceneDelegate.swift */,
 				2F758FD426BA29E000F4F7E8 /* Main.storyboard */,
+				2F1325C926BA3292009C5356 /* CalculatorViewController.swift */,
+				2F1325C726BA3223009C5356 /* Double+Entensions.swift */,
 				2F758FD726BA29E400F4F7E8 /* Assets.xcassets */,
 				2F758FD926BA29E400F4F7E8 /* LaunchScreen.storyboard */,
 				2F758FDC26BA29E400F4F7E8 /* Info.plist */,
 			);
 			path = CalculatorApp;
-			sourceTree = "<group>";
-		};
-		2F758FE226BA312300F4F7E8 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				2F758FD226BA29E000F4F7E8 /* ViewController.swift */,
-				2F1325C926BA3292009C5356 /* CalculatorViewController.swift */,
-			);
-			name = Controllers;
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,7 +141,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F1325CA26BA3292009C5356 /* CalculatorViewController.swift in Sources */,
-				2F758FD326BA29E000F4F7E8 /* ViewController.swift in Sources */,
 				2F758FCF26BA29E000F4F7E8 /* AppDelegate.swift in Sources */,
 				2F1325C826BA3223009C5356 /* Double+Entensions.swift in Sources */,
 				2F758FD126BA29E000F4F7E8 /* SceneDelegate.swift in Sources */,
